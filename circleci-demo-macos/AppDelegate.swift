@@ -9,7 +9,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         enableMenus(start: true, stop: false, reset: false)
         // Insert code here to initialize your application
-        // Important emty line for merge differences
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
